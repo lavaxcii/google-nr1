@@ -8,42 +8,53 @@
 
 .meta-container {
 
-
-
-}
-
-#img1, #img2 {
-
-
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 
 }
 
-#searchb {
+ul {
 
-
-
-}
-
-#gs, #lucky {
-
-
-
-}
-
-#footer2 {
-
-
-
-}
-
-#footerLeft {
-
-
-
-}
-
-#footerRight {
-
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
   
+}
+
+li {
+
+  display: inline;
+
+}
+
+.topBar {
+
+  top: 0px;
+  right: 0px;
+
+}
+
+.fLeft, .fRight {
+
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+
+}
+
+.fLeft {
+
+  left:  0px;
+  border: 5px solid red;
+  width: 50%;
+
+}
+
+.fRight {
+
+  right: 0px;
+  border: 5px solid black;
+  width: 50%;
 
 }
